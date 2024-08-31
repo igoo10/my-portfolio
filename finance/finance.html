@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Finance</title>
+    <link rel="stylesheet" href="./finance.css">
+    <script src="https://kit.fontawesome.com/6676a92376.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h2 style="font-family: Inter;">Overview</h2>
+ <div class="header-container">
+    <div class="container1">
+        <h4>Current Balance</h4>
+        <h1>$4,836.00</h1>
+    </div>
+    <div class="container2">
+        <h4>Income</h4>
+        <h1>$3,814.25</h1>
+    </div>
+    <div class="container3">
+        <h4>Expenses</h4>
+        <h1>$1,700.50</h1>
+    </div>
+ </div>
+    </header>
+    <aside class="aside1">
+               <h4>finance</h4>
+               <div class="aside-container">
+                <div class="aside-item">
+                    <a href="#"><i class="fa-solid fa-house fa-lg mx" style="margin-right: 15px; color:grey;"></i> Overview</a>
+                    
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up" style="color: grey;"></i>
+                        <i class="fa-solid fa-arrow-down " style="color: grey; margin-left: 3px;"></i>
+                        Transactions
+                    </a>
+            
+                    <a href="#">
+                        <i class="fa-solid fa-chart-pie fa-lg mx" style="margin-right: 20px; color:grey;"></i> Budgets
+                    </a>
+            
+                    <a href="#">
+                        <i class="fa-solid fa-sack-dollar fa-lg mx" style="margin-right: 20px; color: grey;"></i> Pots
+                    </a>
+            
+                    <a href="#">
+                        <i class="fa-solid fa-money-bills fa-lg mx5" style="margin-right: 12px; color: grey;"></i> Recurring Bills
+                    </a>
+                </div>
+                <div class="minimize-menu">
+                    <a href="#"><i class="fa-solid fa-circle-chevron-left fa-lg mx" style="margin-right: 15px; color: grey;"></i> Minimize Menu</a>
+                </div> 
+            </div>
+            
+    </aside>
+    <section class="section1">
+        <div class="pot-container">
+            <div class="pot-header">
+                <h3>Pots</h3>
+                <div class="see-details">
+                    <a href="#">See Details ></a>
+                </div>
+            </div>
+            
+            <div class="pot-summary">
+                <div class="total-saved">
+                    <div class="pot-icon">
+                        <i class="fa-solid fa-sack-dollar fa-2xl" style="color: #2D6A4F;"></i>
+                    </div>
+                    <div class="total-saved-amount">
+                        <h4>Total Saved</h4>
+                        <h1>$850</h1>
+                    </div>
+                </div>
+                <div class="savings-details">
+                    <div class="savings-item">
+                        <div class="label">Savings</div>
+                        <div class="amount">$159</div>
+                    </div>
+                    <div class="savings-item">
+                        <div class="label">Gift</div>
+                        <div class="amount">$40</div>
+                    </div>
+                    <div class="savings-item">
+                        <div class="label">Concert Ticket</div>
+                        <div class="amount">$110</div>
+                    </div>
+                    <div class="savings-item">
+                        <div class="label">New Laptop</div>
+                        <div class="amount">$10</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+        <div class="transaction-container">
+            <div class="transaction-header">
+                <h3>Transactions</h3>
+                <div class="see-details">
+                    <a href="#">View All ></a>
+                </div>
+            </div>
+            
+            <div class="transaction-summary">
+                <div class="transaction-item">
+                    <div class="person">
+                        <div class="image">
+                            <img src="./assets/avatar-jessica.jpeg" alt="Emma Richardson">
+                        </div>
+                        <h4>Emma Richardson</h4>
+                    </div>
+                    <div class="transaction-amount">
+                        <h4 class="positive">+$75.50</h4>
+                        <h5>19 Aug 2024</h5>
+                    </div>
+                </div>
+        
+                <div class="transaction-item">
+                    <div class="person">
+                        <div class="image">
+                            <img src="./assets/savoryavatar.png" alt="Savory Bites Bistro">
+                        </div>
+                        <h4>Savory Bites Bistro</h4>
+                    </div>
+                    <div class="transaction-amount">
+                        <h4 class="negative">-$55.50</h4>
+                        <h5>19 Aug 2024</h5>
+                    </div>
+                </div>
+        
+                <div class="transaction-item">
+                    <div class="person">
+                        <div class="image">
+                            <img src="./assets/danavatar.png" alt="Daniel Carter">
+                        </div>
+                        <h4>Daniel Carter</h4>
+                    </div>
+                    <div class="transaction-amount">
+                        <h4 class="negative">-$42.30</h4>
+                        <h5>18 Aug 2024</h5>
+                    </div>
+                </div>
+        
+                <div class="transaction-item">
+                    <div class="person">
+                        <div class="image">
+                            <img src="./assets/sunparkavatar.jpg" alt="Sun Park">
+                        </div>
+                        <h4>Sun Park</h4>
+                    </div>
+                    <div class="transaction-amount">
+                        <h4 class="positive">+$120.00</h4>
+                        <h5>17 Aug 2024</h5>
+                    </div>
+                </div>
+        
+                <div class="transaction-item">
+                    <div class="person">
+                        <div class="image">
+                            <img src="./assets/urbanavatar.jpeg" alt="Urban Services Hub">
+                        </div>
+                        <h4>Urban Services Hub</h4>
+                    </div>
+                    <div class="transaction-amount">
+                        <h4 class="negative">-$65.00</h4>
+                        <h5>17 Aug 2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        </div>
+    </section>
+    <section class="section2">
+        <div class="budget-container">
+            <div class="budget-header">
+                <h3>Budgets</h3>
+                <div class="see-details">
+                    <a href="#">See Details ></a>
+                </div>
+            </div>
+            <div class="chart-container">
+                <div class="budget-chart">
+                    <canvas id="myDoughnutChart"></canvas>
+                </div>
+                <div class="chart-legend">
+                    <div class="budget-item">
+                        <div class="label">Entertainment</div>
+                        <div class="amount">$50.00</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="label">Bills</div>
+                        <div class="amount">$750.00</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="label">Personal Care</div>
+                        <div class="amount">$100.00</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="label">Dinning Out</div>
+                        <div class="amount">$75.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recurring-bills-container">
+            <div class="recurring-bills-header">
+                <h3>Recurring Bills</h3>
+                <div class="see-details">
+                    <a href="#">See Details ></a>
+                </div>
+            </div>
+            <div class="recurring-bills-details">
+                <div class="recurring-bills-item"  style=" border-left: 5px solid green;">
+                    <div class="label">Paid Bills</div>
+                    <div class="amount">$190.00</div>
+                 </div>
+                 <div class="recurring-bills-item" style=" border-left: 5px solid #F8961E;">
+                    <div class="label"> Total Upcomimg</div>
+                    <div class="amount">$194.98</div>
+                 </div>
+                 <div class="recurring-bills-item" style=" border-left: 5px solid #00B4D8;">
+                    <div class="label">Due Soon</div>
+                    <div class="amount">$59.98</div>
+                 </div>
+            </div>
+            
+            
+        </div>
+            
+        
+            <script>
+                // Get the context of the canvas element
+                var ctx = document.getElementById('myDoughnutChart').getContext('2d');
+        
+                // Create the Doughnut chart
+                var myDoughnutChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Entertainment', 'Bills', 'Dining Out', 'Personal Care'],
+                        datasets: [{
+                            data: [50, 750, 75, 100],
+                            backgroundColor: [
+                                'green', // Color for Entertainment
+                                '#4BC0C0', // Color for Bills
+                                '#FFCD56', // Color for Dining Out
+                                '#C9CBCF'  // Color for Personal Care
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                display: false // Hide the legend (optional)
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(tooltipItem) {
+                                        return tooltipItem.label + ': $' + tooltipItem.raw;
+                                    }
+                                }
+                            }
+                        },
+                        cutout: '75%', // Create the doughnut effect (adjust as needed)
+                    }
+                });
+        
+                // Custom plugin to add text inside the doughnut
+                Chart.register({
+                    id: 'centerTextPlugin',
+                    beforeDraw: function(chart) {
+                        var width = chart.width,
+                            height = chart.height,
+                            ctx = chart.ctx;
+        
+                        ctx.restore();
+                        var fontSize = (height / 5).toFixed(2); // Adjust font size based on chart height
+                        ctx.font = "bold " + fontSize + "px sans-serif";
+                        ctx.textBaseline = "middle";
+        
+                        // Main text "$338"
+                        var text = "$338",
+                            textX = Math.round((width - ctx.measureText(text).width) / 2),
+                            textY = height / 2 - 10; // Adjust vertical position
+        
+                        ctx.fillStyle = "black"; 
+                        ctx.fillText(text, textX, textY); // Center the main text
+        
+                        // Subtext "of $975 limit"
+                        var subText = "of $975 limit",
+                            subFontSize = (height / 15).toFixed(2); // Smaller font size for subtext
+                        ctx.font = subFontSize + "px sans-serif";
+                        var subTextX = Math.round((width - ctx.measureText(subText).width) / 2);
+                        ctx.fillStyle = "grey"; // Change the color of the subtext to grey
+                        ctx.fillText(subText, subTextX, textY + 25); // Adjust spacing between main text and subtext
+        
+                        ctx.save();
+                    }
+                });
+        
+                // Add the plugin to the chart
+                myDoughnutChart.update();
+            </script>
+            </body>
+</html>
