@@ -93,14 +93,15 @@ a {
 .aside-container .minimize-menu a:hover {
     background-color: white;
     color: black;
-    transform: translateX(-13px);
+    transform: translateX(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-left: solid green;
 }
 
 
 .aside-container .aside-item a i,
 .aside-container .minimize-menu a i {
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 
