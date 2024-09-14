@@ -31,7 +31,7 @@ body {
 
 .mid-nav a:hover {
     color: #ffffff;
-    border-bottom: 2px solid #b0c4de;
+    border-bottom: 2px solid #ffffff;
 }
 
 
@@ -42,7 +42,7 @@ body {
 }
 
 .right-nav .icon:hover {
-    color:#b0c4de;
+    color: #f0f0f0;
 }
 
 
@@ -160,7 +160,7 @@ body {
     margin-bottom: 10px;
 }
 
- p {
+.skill p {
     font-size: 14px;
     color: #a8a8a8;
 }
@@ -176,10 +176,11 @@ body {
 /* Work grid */
 .work-grid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
-  }
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .work-item {
     text-decoration: none;
     color: #cbd5e1;
@@ -201,20 +202,6 @@ body {
 .work-item:hover img {
     transform: scale(1.05);
 }
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; /* Ensures that all cards will stretch */
-    margin-bottom: 1rem;
-  }
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-  }
 
 /* Custom card styling */
 .custom-card {

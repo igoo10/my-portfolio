@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert</title>
+    <link rel="stylesheet" href="/dessert.css">
+    <script src="/dessert.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="left-column">
+            <div class="menu-container">
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-waffle-desktop.jpg" alt="Waffle">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Waffle</h1>
+                        <p class="menu-description">aolore magna aliqua.</p>
+                        <p class="menu-price">$10.00</p>
+                        <div class="quantity-controls hidden">
+                            <button class="cart-button" onclick="adjustQuantity(this, -1)">-</button>
+                            <span class="quantity">0</span>
+                            <button class="cart-button" onclick="adjustQuantity(this, 1)">+</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-creme-brulee-desktop.jpg" alt="Creme Brulee">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Creme Brulee</h1>
+                        <p class="menu-description">Vanilla Bean Creme Brulee</p>
+                        <p class="menu-price">$7.00</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-macaron-desktop.jpg" alt="Macaron">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Macaron</h1>
+                        <p class="menu-description">Macaron Mix of Five</p>
+                        <p class="menu-price">$8.00</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-tiramisu-desktop.jpg" alt="Tiramisu">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Tiramisu</h1>
+                        <p class="menu-description">Classic Tiramisu</p>
+                        <p class="menu-price">$5.50</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-baklava-desktop.jpg" alt="Baklava">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Baklava</h1>
+                        <p class="menu-description">Pistachio Baklava</p>
+                        <p class="menu-price">$4.00</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-meringue-desktop.jpg" alt="Pie">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Pie</h1>
+                        <p class="menu-description">Lemon Meringue Pie</p>
+                        <p class="menu-price">$5.00</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-cake-desktop.jpg" alt="Cake">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Cake</h1>
+                        <p class="menu-description">Red Velvet Cake</p>
+                        <p class="menu-price">$4.50</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-brownie-desktop.jpg" alt="Brownie">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Brownie</h1>
+                        <p class="menu-description">Salted Caramel Brownie</p>
+                        <p class="menu-price">$5.50</p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img class="menu-img" src="../assets/images/image-panna-cotta-desktop.jpg" alt="Panna Cotta">
+                    <div class="menu-briefing">
+                        <h1 class="menu-title">Panna Cotta</h1>
+                        <p class="menu-description">Vanilla Panna Cotta</p>
+                        <p class="menu-price">$6.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="cart">
+                <h2>Cart</h2>
+                <p>Your cart is empty.</p>
+                <!-- Add cart items here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
